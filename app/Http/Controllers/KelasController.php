@@ -38,7 +38,7 @@ class KelasController extends Controller
             'ketua_kelas' => 'required|string|max:255',
             'kursi' => 'required|integer|min:1',
             'meja' => 'required|integer|min:1',
-            'gambar_kelas' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
+            'gambar_kelas' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
         ]);
         $namaFile = null;
         if ($request->hasFile('gambar_kelas')) {
@@ -84,7 +84,7 @@ class KelasController extends Controller
             'ketua_kelas' => 'required|string|max:255',
             'kursi' => 'required|integer|min:1',
             'meja' => 'required|integer|min:1',
-            'gambar_kelas' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
+            'gambar_kelas' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
         ]);
         $namaFile = $kelas->gambar_kelas;
         if ($request->hasFile('gambar_kelas')) {
