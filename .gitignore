@@ -22,6 +22,9 @@
 /public/gambar_flowchart_read_data.png
 /public/background_ui_ux.webp
 /public/Why-Was-Laravel-Built.webp
+/public/tampilan_halaman_utama.png
+/public/tampilan_halaman_edit_kelas.png
+/public/tampilan_halaman_tambah_kelas.png
 /public/storage
 /storage/*.key
 /storage/pail
