@@ -16,6 +16,12 @@
 /public/build
 /public/hot
 /public/images/*
+/public/gambar_flowchart_create_data.png
+/public/gambar_flowchart_delete_data.png
+/public/gambar_flowchart_edit_data.png
+/public/gambar_flowchart_read_data.png
+/public/background_ui_ux.webp
+/public/Why-Was-Laravel-Built.webp
 /public/storage
 /storage/*.key
 /storage/pail
